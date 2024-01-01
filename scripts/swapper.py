@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
+import torch
 import insightface
 import onnxruntime
 from scripts.cimage import convert_to_sd
